@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mauro De Laat zijn portofolio">
+    <meta name="keywords" content="Portifolio">
+    <meta name="author" content="Mauro De Laat">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="stijl.css">
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="cv.html">Cv</a></li>
+            <li><a href="ervaring.html">Ervaring</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contact</h1>
+
+    <section>
+        <h2>Contactformulier</h2>
+        <form action="https://tm-statweb.be/forms.php" method="post">
+            <label for="naam">Naam:</label>
+            <input type="text" id="naam" name="naam" required placeholder="Uw naam">
+            
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" required placeholder="Uw e-mailadres">
+            
+            <label for="onderwerp">Onderwerp:</label>
+            <input type="text" id="onderwerp" name="onderwerp" required placeholder="Onderwerp van uw bericht">
+            
+            <label for="bericht">Uw vraag:</label>
+            <textarea id="bericht" name="bericht" rows="6" required placeholder="Typ hier uw bericht"></textarea>
+
+            <input type="submit" value="Verzenden">
+        </form>
+    </section>
+</body>
+</html>
